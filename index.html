@@ -10,67 +10,67 @@
 
 </head>
 <body>
- <header>
-  <nav class="navbar navbar-expand-lg bg-body-info-subtle">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.correlation-one.com/">Correlation One</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="contact-form" href="#contact-me">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about-us.html">Sample Page 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Sample Page 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="products/products.html">Sample Page 3</a>
-          </li>
-        </ul>
-         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+  <div id="header">
+    <h3>Progress Project</h3>
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Contact Me</button>
+  </div>
   
-</header>
-    <div class="wrapper">
-    <div class="grid-container">
-      <header class="grid-item header">My Progress Page</header>
-      <main class="grid-item main"><h2>Introduction</h2>
-        <p>Hello! My name is Carina Lawson and this page is a showcase of everything I've learned and will continue to learn with this course. This will get updated very regularly, showing how far I've come! </p>
-        <h2>About Me</h2>
-        <p> I'm a 27 year old first time mom trying to better my life by taking this course so in turn I can provide for my family. Regarding this website, I created this page with the help of the awesome community and leadership Correlation One provides, and will keep on adding to it as visual proof of what I've learned. Here is my <a href="https://www.linkedin.com/in/carina-lawson-0a0497165/">Linkedin</a> if anyone's interested in connecting with me!</p></main>
-      <aside class="grid-item aside-one"><img class="img" src="media/me.jpeg" alt="Me"></aside>
-      <aside class="grid-item aside-two"><h2>My Programming Journey</h2>
-        <p>My interest in coding started in my second year of high school, when I joined the social media site Tumblr. On Tumblr, you have your own blog and you're free to customize it any way you want, including the option of diving into your blog's code yourself. Because of that, I looked up free online code training sites to learn more and I stumbled upon Codecademy. They offer free classes in multiple programming languages. Their lessons definitely strengthened my HTML and CSS skills, making my transition into this class that much smoother. </p></aside>
-      <footer class="grid-item footer">
-            <h3 class="center" id="contact-me">Contact Me!</h3>
-            <form class="center" action="example.html" method="post">
-              <label for="fname">First Name</label><br>
-              <input type="text" id="fname" name="firstname"><br>
-              <label for="lname">Last Name</label><br>
-              <input type="text" id="lname" name="lastname"><br>
-              <label for="email">Email</label><br>
-              <input type="text" id="email" name="email"><br><br>
-              <input type="submit" value="submit">
-            </form>
-       </footer>
+  <div id="main-body">
+    <div id="sidebar">
+      <a href="https://cari355.github.io/project/">Home</a>
+      <a href="https://www.correlation-one.com/">Correlation One</a>
+      <a href="https://www.linkedin.com/carina-lawson/">LinkedIn</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </div>
+    
+    <br>
+    
+    <div id="content">
+        <p>Hello! My name is Carina Lawson and this page is a showcase of everything I've learned and will continue to learn with this course. This will get updated very regularly, showing how far I've come!</p>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
+<div class="container">
+  <div id="footer">
+    <div id="slider">
+       
+          <div class="card" style="width: 30rem; height: 28rem;">
+            <img src="media/trivia-game-screenshot.png" class="card-img-top" alt="Trivia Game">
+            <div class="card-body">
+              <h5 class="card-title">Trivia Game</h5>
+              <p class="card-text">This was an in class project with fully functional features</p>
+              <a href="https://github.com/cari355/trivia-game" target="_blank" class="btn btn-primary">View on Github</a>
+            </div>
+          </div>
+      
+
+          <div class="card" style="width: 30rem; height: 35rem;">
+            <img src="media/image-slider-screenshot.png" class="card-img-top" alt="Image Slider">
+            <div class="card-body">
+              <h5 class="card-title">Image Slider</h5>
+              <p class="card-text">One of the first true forrays into Javascript where I truly felt confident with working with it.</p>
+              <a href="https://github.com/cari355/image-slider" target="_blank" class="btn btn-primary">View on Github</a>
+            </div>
+          </div>
+
+
+          
+          <div class="card" style="width: 30rem; height: 30rem;">
+            <img src="media/card-layout-screenshot.png" class="card-img-top" alt="Card Layout">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap Card Layout</h5>
+              <p class="card-text">A pretty simple page layout with card infographics, made with the use of Bootstrap</p>
+              <a href="https://github.com/cari355/card-layout" target="_blank" class="btn btn-primary">View on Github</a>
+            </div>
+          </div>
+      
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </div>
+</div>
+
+  <script src="javascript/main.js"></script>
 </body>
-</html>
+</html> 

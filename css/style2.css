@@ -1,16 +1,48 @@
+.header {
+  align: right;
+}
 
-.wrapper {
-    width: min(100% - 2rem, 1200px);
-    margin-inline: auto;
-  }
-  
-  .navbar {
-    background-color: #e3f2fd;
-  }
-  
-  .grid-item {
-    font-size: 1rem;
-    border: double;
-    padding: 1rem;
-  }
-  
+#header {
+    background-color:#D5D5D5;
+    color:#009AFB;
+    padding:15px;
+}
+
+#footer {
+    padding:15px;
+    align: center;
+}
+
+#sidebar {
+    width:100%;
+    background-color:#EEEEEE;
+    padding: 30px 10px;
+}
+
+#sidebar a {
+    padding: 6px;
+    margin-bottom: 10px;
+    text-decoration:none;
+    background-color: #A6E8FF;
+    color: #000000;
+}
+
+#sidebar a:hover {
+    background-color: #009AFB;
+}
+
+
+#content {
+    width:75%;
+    /*margin from left equal to width of sidebar*/
+    margin-left:5%;
+    padding:10px;
+}
+
+#main-body {
+    overflow:auto;
+}
+
+.img {
+  width: 30rem;
+}
