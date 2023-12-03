@@ -1,3 +1,7 @@
+var obj = { "firstname":"Mary", "lastname":"Bo Beep", "age":16, "city":"Terabithia"};
+var myJSON = JSON.stringify(obj);
+document.getElementById("demo").innerHTML = myJSON;
+
 const card = document.querySelectorAll('.card');
 const previousCard = document.getElementById("prev");
 const nextCard = document.getElementById("next");
